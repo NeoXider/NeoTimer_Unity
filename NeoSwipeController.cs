@@ -24,6 +24,7 @@ public class NeoSwipeController : MonoBehaviour
     /// </summary>
     [SerializeField]
     public bool detectSwipeOnlyAfterRelease = false;
+    
     /// <summary>
     /// The minimum distance (in screen pixels) that the user must move their finger or the mouse for a movement
     /// to be considered a swipe. This helps differentiate between swipes and taps or clicks.
